@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLIMMR Tales | Boutique Publishing House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,700;0,900;1,700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Playfair Display"', 'serif'],
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        boutique: {
+                            black: '#0a0a0a',
+                            dark: '#111111',
+                            gold: '#d4af37',
+                            gray: '#a0a0a0',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glow-hover:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-boutique-black text-white font-sans antialiased">
+
+    <nav class="container mx-auto px-6 py-8 flex justify-between items-center sticky top-0 bg-boutique-black/90 backdrop-blur-md z-50 border-b border-white/5">
+        <div class="flex items-center">
+            <h1 class="font-serif text-2xl font-black tracking-tighter uppercase italic">GLIMMR</h1>
+            <span class="font-sans font-light tracking-[0.4em] text-xs text-boutique-gray uppercase pl-2 ml-2 border-l border-white/20">Tales</span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-xs uppercase tracking-[0.2em] font-semibold text-boutique-gray">
+            <a href="#about" class="hover:text-boutique-gold transition">The Mission</a>
+            <a href="#partnership" class="hover:text-boutique-gold transition">Partnership</a>
+            <a href="#ip" class="hover:text-boutique-gold transition">IP Rights</a>
+        </div>
+    </nav>
+
+    <header id="partnership" class="container mx-auto px-6 py-20 md:py-32 flex flex-col justify-center items-center text-center">
+        <div class="inline-block px-4 py-1 border border-boutique-gold/30 rounded-full mb-8">
+            <p class="text-boutique-gold font-semibold tracking-[0.3em] uppercase text-[10px]">
+                A Digital-First Fiction Imprint
+            </p>
+        </div>
+        <h2 class="font-serif text-4xl md:text-7xl leading-tight max-w-5xl mb-8">
+            <span class="text-boutique-gray italic block md:inline font-normal">Self-publishing is a lonely war.</span> 
+            <span class="block mt-2">We are your <span class="text-boutique-gold italic">Boutique Ally.</span></span>
+        </h2>
+        
+        <p class="text-boutique-gray text-lg md:text-xl max-w-2xl mb-12 font-light leading-relaxed">
+GLIMMR Tales adalah imprint kreatif yang didedikasikan untuk membawa karya fiksi lokal ke panggung internasional. Kami memadukan keahlian lokalisasi budaya dengan strategi distribusi global untuk memastikan cerita Anda beresonansi dengan pembaca di seluruh dunia.        </p>
+
+        <a href="https://wa.me/NOMOR_WHATSAPP" class="group relative px-10 py-5 bg-white text-black font-bold uppercase tracking-widest transition-all hover:bg-boutique-gold hover:text-white glow-hover">
+            Ajukan Kolaborasi
+        </a>
+    </header>
+
+    <section id="about" class="bg-boutique-dark py-24 border-y border-white/5">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="font-serif text-3xl md:text-5xl mb-6">Stop Fighting Alone.</h2>
+                    <p class="text-boutique-gray mb-6 leading-relaxed">
+                        Kami percaya pada kualitas di atas kuantitas. GLIMMR Tales bekerja secara selektif dengan penulis untuk merancang edisi internasional yang kompetitif. Fokus kami adalah menjembatani kesenjangan antara naskah mentah dan standar pasar internasional melalui proses produksi yang presisi.
+                    </p>
+                    <p class="text-boutique-gray leading-relaxed font-semibold text-white">
+                        GLIMMR Tales hadir sebagai jalan ketiga. Kami adalah Creative Partner yang berinvestasi pada potensi karya Anda.
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 gap-6">
+                    <div class="p-8 bg-boutique-black border border-white/10">
+                        <h4 class="text-boutique-gold uppercase text-xs tracking-widest mb-2 font-bold font-sans">01. Localization</h4>
+                        <p class="text-sm text-boutique-gray font-light leading-relaxed italic">The Global Flip: Kami merombak naskahmu agar relevan secara internasional—seperti adaptasi setting Thailand, British atau Japanese Literature sesuai dengan pasar audiens global.</p>
+                    </div>
+                    <div class="p-8 bg-boutique-black border border-white/10">
+                        <h4 class="text-boutique-gold uppercase text-xs tracking-widest mb-2 font-bold font-sans">02. Distribution</h4>
+                        <p class="text-sm text-boutique-gray font-light leading-relaxed italic">Worldwide Accessibility: Melalui ekosistem GIZIPP & Mekarbooks, buku digitalmu menjangkau pembaca di seluruh dunia, Amazon, Apple Books, dll.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works" class="py-24 bg-boutique-black">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4 border-b border-white/5 pb-8">
+                <div class="max-w-2xl">
+                    <h2 class="font-serif text-3xl md:text-5xl mb-4 italic">The Global Catalog</h2>
+                    <p class="text-boutique-gray font-light">Karya-karya pilihan yang telah kami kurasi dan distribusikan ke pasar internasional melalui ekosistem Amazon Kindle.</p>
+                </div>
+                <div class="text-boutique-gold text-[10px] tracking-[0.4em] uppercase font-bold">
+                    Updated Feb 2026
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                
+                <div class="group">
+                    <div class="relative overflow-hidden bg-boutique-dark aspect-[3/4.5] mb-6 border border-white/10 transition-all hover:border-boutique-gold group-hover:shadow-[0_0_30px_rgba(212,175,55,0.1)]">
+                        <div class="absolute inset-0 flex items-center justify-center text-boutique-gray/10 font-serif text-4xl italic p-4 text-center">
+                            The Bookshop Teapot Thief
+                        </div>
+                        <div class="absolute top-4 right-4 bg-boutique-gold text-black text-[9px] font-bold px-2 py-1 uppercase tracking-tighter">
+                            4.5 ★ Rating
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg leading-tight mb-1 group-hover:text-boutique-gold transition">The Bookshop Teapot Thief</h3>
+                    <p class="text-boutique-gray text-xs mb-3 italic">by Sophie Howlr</p>
+                    <span class="text-[9px] text-white/40 border border-white/20 px-2 py-1 uppercase tracking-widest">Cozy Mystery</span>
+                </div>
+
+                <div class="group">
+                    <div class="relative overflow-hidden bg-boutique-dark aspect-[3/4.5] mb-6 border border-white/10 transition-all hover:border-boutique-gold">
+                        <div class="absolute inset-0 flex items-center justify-center text-boutique-gray/10 font-serif text-4xl italic p-4 text-center">
+                            The Water’s Pulse
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg leading-tight mb-1">The Water’s Pulse</h3>
+                    <p class="text-boutique-gray text-xs mb-3 italic">by Sora Uzuki</p>
+                    <span class="text-[9px] text-white/40 border border-white/20 px-2 py-1 uppercase tracking-widest">Solarpunk / Sci-Fi</span>
+                </div>
+
+                <div class="group">
+                    <div class="relative overflow-hidden bg-boutique-dark aspect-[3/4.5] mb-6 border border-white/10 transition-all hover:border-boutique-gold">
+                        <div class="absolute inset-0 flex items-center justify-center text-boutique-gray/10 font-serif text-4xl italic p-4 text-center">
+                            My Backpack is a Robot
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg leading-tight mb-1">My Backpack is a Robot</h3>
+                    <p class="text-boutique-gray text-xs mb-3 italic">by E. L. April</p>
+                    <span class="text-[9px] text-white/40 border border-white/20 px-2 py-1 uppercase tracking-widest">Middle Grade</span>
+                </div>
+
+                <div class="group">
+                    <div class="relative overflow-hidden bg-boutique-dark aspect-[3/4.5] mb-6 border border-white/10 transition-all hover:border-boutique-gold">
+                        <div class="absolute inset-0 flex items-center justify-center text-boutique-gray/10 font-serif text-4xl italic p-4 text-center">
+                            Colors of Hope
+                        </div>
+                    </div>
+                    <h3 class="font-serif text-lg leading-tight mb-1">Colors of Hope</h3>
+                    <p class="text-boutique-gray text-xs mb-3 italic">by E. Langit April</p>
+                    <span class="text-[9px] text-white/40 border border-white/20 px-2 py-1 uppercase tracking-widest">Literary Fiction</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="ip" class="py-24">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-16">
+                <h2 class="font-serif text-3xl md:text-4xl mb-4 italic">Intellectual Property Clarity</h2>
+                <div class="h-1 w-20 bg-boutique-gold mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="p-10 border-t-2 border-white/20 bg-white/5">
+                    <h4 class="text-white font-bold uppercase tracking-widest text-sm mb-4">Original Work</h4>
+                    <p class="text-boutique-gray text-sm leading-relaxed">Naskah asli (Bahasa Indonesia) adalah milikmu sepenuhnya. Kamu bebas menerbitkan atau menjualnya di mana saja. Kami menghargai hak cipta aslimu tanpa syarat.</p>
+                </div>
+                <div class="p-10 border-t-2 border-boutique-gold bg-boutique-gold/5">
+                    <h4 class="text-boutique-gold font-bold uppercase tracking-widest text-sm mb-4">Derivative Work</h4>
+                    <p class="text-boutique-gray text-sm leading-relaxed">Versi internasional (English-Localized Edition) yang kami produksi dikelola secara eksklusif oleh GLIMMR Tales sebagai hasil investasi waktu, riset, dan strategi kami.</p>
+                </div>
+            </div>
+            <p class="mt-12 text-center text-xs text-boutique-gray italic opacity-50">
+                Integritas kemitraan kami berakar pada transparansi mutlak dan kejelasan hak bagi setiap penulis.
+            </p>
+        </div>
+    </section>
+
+    <footer class="bg-boutique-dark border-t border-white/10 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="font-serif text-2xl italic text-white mb-2">GLIMMR Tales</div>
+            <p class="text-[10px] tracking-[0.6em] uppercase text-boutique-gold mb-10">Part of GIZIPP Studios Ecosystem</p>
+            
+            <div class="flex justify-center space-x-6 text-[10px] uppercase tracking-widest text-boutique-gray mb-10">
+                <a href="#" class="hover:text-white transition">Privacy</a>
+                <a href="#" class="hover:text-white transition">Terms</a>
+                <a href="#" class="hover:text-white transition">Contact</a>
+            </div>
+            
+            <p class="text-[10px] text-boutique-gray/40 font-light italic">
+                &copy; 2026 GIZIPP Publishing imprint. Empowering fiction authors worldwide.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
